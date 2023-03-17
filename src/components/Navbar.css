@@ -1,0 +1,56 @@
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+}
+
+li {
+  padding: 35px 25px;
+  height: max-content;
+  border-bottom: 3px solid white;
+}
+
+nav {
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid gray;
+  margin: 0px 150px;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.navLeft {
+  display: flex;
+  align-items: baseline;
+  margin: 0px;
+  padding: 0px;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+.avatar {
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 0px 0px 0px 25px;
+}
+.cart {
+  background-color: white;
+  border: none;
+}
+
+.cart :hover {
+  cursor: pointer;
+}
+ul :hover {
+  cursor: pointer;
+  border-bottom: 3px solid orange;
+}
+
+.avatar:hover {
+  border: 3px solid orange;
+  border-radius: 50%;
+  cursor: pointer;
+}
